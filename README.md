@@ -1,6 +1,6 @@
 # Innotescus Webhook Sample
 
-This is a simple flask app which demonstrates how to verify authenticity of webhook messages sent by Innotescus.
+This is a simple flask app which demonstrates how to construct and verify the signature included in webhook messages sent by Innotescus.
 
 ## Quickstart
 
