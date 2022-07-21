@@ -1,7 +1,6 @@
 # Innotescus Webhook Sample
 
-A simple flask app demonstrating how to handle
-some of the webhook messages from Innotescus.
+This is a simple flask app which demonstrates how to verify authenticity of webhook messages sent by Innotescus.
 
 ## Quickstart
 
