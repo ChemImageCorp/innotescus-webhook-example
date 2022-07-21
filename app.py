@@ -15,7 +15,7 @@ YOUR_SECRET_KEY = b'YOUR_SECRET_KEY'
 def your_webhook_callback():
 
     # construct expected HMAC signature
-    base_string = ':'.join([
+    base_string = ''.join([
         request.headers['X-Innotescus-Version'],
         request.headers['X-Innotescus-Timestamp'],
         request.data,
